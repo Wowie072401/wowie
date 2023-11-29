@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-image:url(img2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+nav{
+  background: transparent;
+}
+nav::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+nav .design{
+  float: left;
+  color:  rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 60px;
+  padding-left: 20px;
+  font-family: monospace;
+}
+nav ul{
+  float: right;
+  list-style: none;
+  margin-right: 10px;
+  position: relative;
+}
+nav ul li{
+  float: left;
+  display: inline-block;
+  background: transparent;
+  margin:  0px;
+}
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+nav ul li a:hover{
+  color: cyan;
+  border-radius: 5px;
+box-shadow: 0 0 5px #33ffff,
+            0 0 5px #66ffff;
+}
+nav ul ul li a:hover{
+  color: cyan;
+  box-shadow: none;
+  
+}
+nav ul ul{
+  position: relative;
+  top: 600px;
+  border-top: 3px solid cyan;
+  opacity: 0;
+  visibility: visible;
+  transition: top .3s;
+}
+nav ul ul ul{
+  border-top: none;
+}
+nav ul li:hover > ul{
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid rgb(189, 71, 4);
+}
+nav ul ul li a{
+  line-height: 50px;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -50px;
+  left: 10px;
+}
+.meals{
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.cover{
+
+  width: 500px;
+  height: 100px;
+  background: transparent;
+  margin-top: 0px;
+  margin-left: 120px ;
+  display: flex;
+}
+.img1{
+  margin: 10px;
+  width: 700px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+.img2{
+  margin: 10px;
+  width: 700px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+.img3{
+  margin: 10px;
+  width: 700px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+.img4{
+  margin: 10px;
+  width: 700px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+.img5{
+  margin: 10px;
+  width: 700px;
+  height: 300px;
+  box-shadow: -1px 0 10px #000;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+img{
+  width: 300px;
+  height: 200px;
+}
